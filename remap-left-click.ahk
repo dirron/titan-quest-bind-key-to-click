@@ -1,7 +1,6 @@
 #SingleInstance
 #InstallKeybdHook
 #InstallMouseHook
-#KeyHistory 1
 
 SetTimer, MoveTimer, 16
 return
@@ -22,4 +21,4 @@ MoveTimer:
             }
         }
     }
-return
+    return
