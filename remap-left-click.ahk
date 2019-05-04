@@ -12,16 +12,13 @@ MoveTimer:
         click := true
         if state = D
         {   
-            if click
-            {
-                click := false
-                MouseClick, left,,, 1, 0, D
-            }
+            click := false
+            Click down
         }
-        if state = U
+        else if state = U
         {
             click := true
-            MouseClick, left,,, 1, 0, U
+            Click up
         }
     }
 return
